@@ -6,3 +6,6 @@ download:
 
 infer: download
   uv run infer.py
+
+ops model="mnist.onnx":
+  uv run ops.py {{model}}
