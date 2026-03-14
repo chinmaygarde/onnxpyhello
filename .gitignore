@@ -9,4 +9,7 @@ wheels/
 # Virtual environments
 .venv
 
+# Downloaded models
+*.onnx
+
 .claude/settings.local.json
